@@ -1,0 +1,17 @@
+          body {font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;}
+/*logo*/
+.logo-studio {font-family: Raleway;
+    color: #2E2F42;
+        font-family: Raleway;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 21px;
+            letter-spacing: 0.03em;
+            text-align: left;}
+
+ .logo-web {
+ color: #4D5AE5; }
+
+ .logo-studio:hover,
+ .logo-studio:focus {color: #404BBF;}
