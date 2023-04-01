@@ -163,28 +163,36 @@ text-align: center;}
 
 .dark-bg {background: var(--color-navy-blue);}
   
-/*portfolio*/            
-.filter-btn
-{width: 116px;
+/*portfolio*/    
+.filter-btn-all{
+    font-family: var(--font-famaly-body);
+    width: 69px;
     height: 48px;
-    background:var(--color-cloud);
-    border: 1px solid var(--color-cornflower);
-    border-radius: 4px;
-font-weight: 500;
-letter-spacing: 0.04em;
-    color: var(--color-ocean)}
-
-.filter-btn-all {
-    background:var(--color-ocean);
+    background:var(--color-iris);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    color: var(--color-white);
-    }
-.filter-btn:hover,
-.filter-btn:focus {background: var(--color-ocean);
-color: var(--color-white);}
-.filter-btn-all:hover {
-    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+        line-height: 1.5;
+         display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--color-white);
+        
 }
+
+
+.filter-btn
+{      width: 116px;
+        height: 48px; background:var(--color-cloud);
+    border: 1px solid var(--color-cornflower);
+        color: var(--color-ocean);}
+
+.filter-btn-all:hover,
+.filter-btn-all:focus {background: var(--color-ocean);
+color: var(--color-white);
+    cursor: pointer;}
 
 
 
