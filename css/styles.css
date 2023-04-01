@@ -15,14 +15,14 @@
               --color-dairy: #fcfcfc;
                         /*font*/
              --font-famaly-body: 'Roboto',
-                'Raleway', sans-serif;
+                sans-serif;
                           }
 
           body {
             font-family: var(--font-famaly-body);
-            font-weight: Regular; font-size: 16px; line-height: 1,5;
+            font-weight: Regular; font-size: 16px; line-height: 1.5;
             letter-spacing: 0.02em;
-           color: var(--color-slate);
+           color: var(--color-slate); background-color:var(--color-white)
           }
  /*reset*/
  .link {
@@ -32,7 +32,10 @@
  .list {
      list-style: none;}
 
-.note{display: none;
+.note{display: none;}
+
+    .font-style {
+    font-style: normal
          }
 
              /*logo*/
@@ -41,12 +44,14 @@
 .logo-studio-dark {
     width: 71px;
     height: 21px;
-        font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
          font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: var(--color-navy-blue);
-               
+                
       }
 
           .logo-studio-white    
@@ -79,7 +84,7 @@ width: 44px;
  .link-nav {width: 48px;
     height: 24px;
     font-weight: 500;
-    letter-spacing: 0.02em;
+        letter-spacing: 0.02em;
 
        color: var(--color-navy-blue);}
 
@@ -103,24 +108,27 @@ width: 44px;
 .main-inscription {
     font-weight: 700;
     font-size: 56px;
-    line-height:1.07
+    line-height:1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--color-white);}
 
 .hero-dark-bg {background:var(--color-navy-blue);}
 
 .hero-button {
+    font-family:var(--font-famaly-body);
     background:var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
      width: 105px;
     height: 24px;
     font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color:var(--color-white);}
 
     .hero-button:hover,
-    .hero-button:focus{background:var(--color-ocean);}
+    .hero-button:focus{background:var(--color-ocean); cursor: pointer}
 
             
                
@@ -130,13 +138,17 @@ width: 44px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--color-navy-blue);}
+    color:var(--color-navy-blue);
+text-align: center;}
 .note-big {font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
    color:var(--color-navy-blue)}
+
+   .our-team{background-color:var(--color-cloud)}
 
  /*footer*/
     .note-small {color:var(--color-cloud);}
