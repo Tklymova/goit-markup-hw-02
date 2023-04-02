@@ -141,7 +141,7 @@ width: 44px;
                
 /*Feature*/
 
- .note-medium{
+ .note-medium {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -169,9 +169,7 @@ width: 44px;
 /*portfolio*/    
 .filter-btn-all{
     font-family: var(--font-famaly-body);
-    width: 69px;
-    height: 48px;
-    background-color:var(--color-cloud);
+     background-color:var(--color-cloud);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-weight: 500;
@@ -188,10 +186,6 @@ width: 44px;
 
 .paragraff-portfolio{color:var(--color-slate);}
 
-
-.filter-btn
-{      width: 116px;
-        height: 48px;}
 
 .filter-btn-all:hover,
 .filter-btn-all:focus {background: var(--color-ocean);
