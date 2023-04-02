@@ -182,21 +182,16 @@ width: 44px;
         text-align: center;
         letter-spacing: 0.04em;
         color: var(--color-iris);
-        
-}
-.filter-btn-blue {
-    background:var(--color-ocean);
-    color: var(--color-white);}
-   
+        border: 1px solid var(--color-cornflower);
+    }
+  
 
 .paragraff-portfolio{color:var(--color-slate);}
 
 
 .filter-btn
 {      width: 116px;
-        height: 48px; background-color:var(--color-cloud);
-    border: 1px solid var(--color-cornflower);
-        color: var(--color-ocean);}
+        height: 48px;}
 
 .filter-btn-all:hover,
 .filter-btn-all:focus {background: var(--color-ocean);
